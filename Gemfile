@@ -41,6 +41,7 @@ group :development, :test do
   gem 'capybara'
   gem 'pry-rails'
   gem 'orderly'
+  gem 'dotenv-rails'
 end
 
 # Use ActiveModel has_secure_password

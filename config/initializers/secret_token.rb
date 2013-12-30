@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-FoodService::Application.config.secret_key_base = 'd5b57e4e0212246794a57c21be8d25496627807075861720945d3a92e32c049ca4f8c2746a1df4ceb78de00b4f8d04924db058417de32d81ab4d63f1386afed7'
+FoodService::Application.config.secret_key_base = ENV['SECRET_TOKEN']
