@@ -1,0 +1,16 @@
+<%= link_to 'Create New Item', new_food_item_path %>
+
+<table>
+  <tr>
+    <th>Food</th>
+    <th>Description</th>
+    <th>Stock</th>
+  </tr>
+<% @food_items.each do |food| %>
+  <tr>
+    <td><%= link_to food.title, food %></td>
+    <td><%= food.description %></td>
+    <td><%= food.inventory %></td>
+  </tr>
+<% end %>
+</table>
